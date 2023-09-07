@@ -4,7 +4,7 @@ import React from 'react'
 const Listado = ({ data, setData, dataFilter, setDataFilter }) => {
 
     const borrarColaborador = (idColaborador) => {
-        //const idColaborador = e.target.value
+        
 
         const colaboradores = data.filter(colaborador =>
             colaborador.id !== idColaborador

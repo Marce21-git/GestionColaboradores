@@ -14,11 +14,6 @@ const Formulario = ({ data, setDatax, dataFilter, setDataFilter, alert, setAlert
     })
 
 
-    /*const [alert, setAlert] = useState({
-        error: false,
-        msg: '',
-        color: '',
-    });*/
 
     const validarFormulario = (e) => {
         e.preventDefault();
