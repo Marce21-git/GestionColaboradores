@@ -35,7 +35,7 @@ const Formulario = ({ data, setDatax, dataFilter, setDataFilter, alert, setAlert
         else {
             setAlert({
                 error: false,
-                msg: 'Cuenta creada exitosamente',
+                msg: 'Colaborador agregado exitosamente',
                 color: 'success',
             });
         }
